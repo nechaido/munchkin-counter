@@ -1,0 +1,30 @@
+extends: airbnb
+env:
+  es6: true
+  browser: true
+rules:
+  react/jsx-filename-extension: 0
+  react/forbid-prop-types: 0
+  react/jsx-boolean-value: 0
+  react/jsx-first-prop-new-line:
+  - error
+  - multiline
+  react/no-multi-comp: 0
+  react/prefer-stateless-function: 0
+  jsx-a11y/href-no-hash: 'off'
+  jsx-quotes:
+  - error
+  - prefer-single
+  comma-dangle:
+  - error
+  - always-multiline
+  max-len:
+  - error
+  - 80
+  no-use-before-define: 0
+  no-console: 0
+  no-param-reassign: 0
+  no-underscore-dangle: 0
+  no-plusplus: 0
+  global-require: 0
+  object-property-newline: 0
