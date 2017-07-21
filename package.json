@@ -1,0 +1,30 @@
+{
+  "name": "munchkin-counter",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nechaido/munchkin-counter.git"
+  },
+  "author": "Dmytro Nechai <nechaido@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "material-ui": "^1.0.0-alpha.22",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-toolbox": "^2.0.0-beta.12",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "bugs": {
+    "url": "https://github.com/nechaido/munchkin-counter/issues"
+  },
+  "homepage": "https://github.com/nechaido/munchkin-counter#readme"
+}
